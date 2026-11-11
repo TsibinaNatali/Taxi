@@ -27,7 +27,7 @@ def get_free_taxi():
     for i in cars:
         if not i.status:
             return i
-        return None #если свободна
+        return None #если свободная
 
 class Taxi:
 
